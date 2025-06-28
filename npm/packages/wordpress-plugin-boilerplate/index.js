@@ -108,7 +108,7 @@ const main = async () => {
     console.log('WordPress plugin boilerplate successfully initialized!');
     console.log(`cd ${pluginName}`);
     console.log('composer install');
-    console.log('npm install');
+    console.log('pnpm install');
 };
 
 main();

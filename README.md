@@ -51,7 +51,7 @@ git clone https://github.com/prappo/wordpress-plugin-boilerplate.git
 
 ## Install dependencies
 ```bash
-npm install
+pnpm install
 composer install
 ```
 ## Plugin renaming
@@ -79,7 +79,7 @@ You can easly rename the plugin by changing data in `plugin-config.json` file.
 Then run the following command to rename the plugin
 
 ```bash
-npm run rename
+pnpm rename
 ```
 </details>
 
@@ -335,42 +335,42 @@ Some highlighted content.
 ## Development
 
 ```bash
-npm run dev
+pnpm dev
 ```
 If you want to run only frontend or admin you can use the following commands:
 
 ```bash
-npm run dev:frontend
-npm run dev:admin
+pnpm dev:frontend
+pnpm dev:admin
 ```
 
 ## Development with server
 
 ```bash
-npm run dev:server
+pnpm dev:server
 ```
 
 ## Build
 
 ```bash
-npm run build
+pnpm build
 ```
 ## Start block
 
 ```bash
-npm run block:start
+pnpm block:start
 ```
 
 ## Build block
 
 ```bash
-npm run block:build
+pnpm block:build
 ```
 
 ## Release
 
 ```bash
-npm run release
+pnpm release
 ```
 
 It will create a relase plugin in `release` folder
@@ -381,7 +381,7 @@ If you are facing any issue with the development server, you can try the followi
 
 1. If you are using Local WP you might see dev server is not working because of SSL certificate issue or domain mismatch.You can fix this by chaning your `Router mode` to `localhost`.
 
-2. Sometimes you might see on the first run of `npm run dev` you might see nothing is happening. You can try to run `npm run dev` again.
+2. Sometimes you might see on the first run of `pnpm dev` you might see nothing is happening. You can try to run `pnpm dev` again.
 
 
 ## Made with WordPress Plugin Boilerplate

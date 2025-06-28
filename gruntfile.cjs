@@ -53,6 +53,7 @@ const distFiles = [
     '!tailwind.config.js',
     '!npm/**',
     '!yarn.lock',
+    '!pnpm-lock.yaml',
     '!postcss.config.js',
     '!components.json',
     '!js/dist/assets/**/*.js.map',
